@@ -1,0 +1,59 @@
+.cs-core-box {
+  width: 80vw;
+  margin: 1em !important;
+  .cs-core-header {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    .cs-core-right {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 16em;
+      justify-content: space-between;
+      .cs-core-member {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .cs-core-avt {
+          margin-left: 0.5em;
+          width: 2.6em;
+          height: 2.6em;
+          border-radius: 50%;
+          text-align: center;
+          cursor: pointer;
+          position: relative;
+          img {
+            border-radius: 50%;
+          }
+          svg {
+            position: absolute;
+            top: 0em;
+            right: 0em;
+            fill: #3f51b5;
+            z-index: 2;
+            width: 1em;
+            height: 1em;
+          }
+        }
+      }
+      .cs-core-comment {
+        // background-color: #3f51b5;
+        position: relative;
+        span {
+          position: absolute;
+          right: -0.8em;
+          top: -0.8em;
+          background-color: #3f51b5;
+          font-size: 0.8em;
+          color: white;
+          border-radius: 50%;
+          padding: 0.2em;
+        }
+      }
+    }
+  }
+}
